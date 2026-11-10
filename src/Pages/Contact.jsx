@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <>
-      <PageBanner title="Contact us" subtitle="We would love to hear from you." />
+        <PageBanner title="Contact us" subtitle="We would love to hear from you." next="blue-50" />
 
       <section className="bg-blue-50 px-6 py-16 md:px-12 md:py-24">
         <div className="mx-auto max-w-7xl">

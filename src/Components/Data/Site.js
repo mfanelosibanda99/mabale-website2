@@ -19,7 +19,6 @@ nav: [
   { label: 'Academics', to: '/academics' },
   { label: 'Activities', to: '/activities' },
   { label: 'Admissions', to: '/admissions' },
-  { label: 'News', to: '/news' },
   { label: 'Contact', to: '/contact' },
 ],
 }

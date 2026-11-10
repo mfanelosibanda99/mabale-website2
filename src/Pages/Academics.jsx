@@ -8,10 +8,11 @@ export default function Academics() {
 
   return (
     <>
-      <PageBanner
-        title="Academics"
-        subtitle="Hands-on learning that sparks curiosity in every pupil."
-      />
+        <PageBanner
+    title="Academics"
+    subtitle="Hands-on learning that sparks curiosity in every pupil."
+    next="blue-50"
+  />
       <AcademicsSection />
       <LearningApproach />
     </>

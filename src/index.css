@@ -7,6 +7,9 @@
   --font-display: "Fredoka", "Poppins", sans-serif;
 
   --animate-slow-zoom: slow-zoom 20s ease-in-out infinite alternate;
+  --animate-orbit: orbit 90s linear infinite;
+  --animate-orbit-reverse: orbit 140s linear infinite reverse;
+  --animate-ghost-in: ghost-in 1.2s cubic-bezier(0.22, 1, 0.36, 1) both;
 
   @keyframes slow-zoom {
     from {
@@ -14,6 +17,23 @@
     }
     to {
       transform: scale(1.12);
+    }
+  }
+
+  @keyframes orbit {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes ghost-in {
+    from {
+      opacity: 0;
+      transform: translateX(8%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 }

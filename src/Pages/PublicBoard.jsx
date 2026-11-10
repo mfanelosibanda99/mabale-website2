@@ -6,8 +6,13 @@ export default function Contact() {
 
   return (
     <>
-      <PageBanner title="Contact us" subtitle="We would love to hear from you." />
-      <section className="mx-auto max-w-3xl px-6 py-16 text-center text-slate-600">
+        <PageBanner
+    title="News & announcements"
+    ghost="News"
+    subtitle={`The latest from ${site.name}.`}
+    next="blue-50"
+  />
+     <section className="bg-blue-50 px-6 py-16 md:py-24">
         <p>Contact details and a message form are coming in the next step.</p>
       </section>
     </>
